@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'lit-starter-ts-test';
 import './index.css';
 import App from './App';
+import Test from './test';
 import reportWebVitals from './reportWebVitals';
+// import RecordButton from './record-button';
+
+// const recordbutton = new RecordButton();
+
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    {/* <Test /> */}
+    {/* <recordbutton /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
